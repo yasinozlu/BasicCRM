@@ -1,0 +1,16 @@
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.AssemblyInfoInputs.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.AssemblyInfo.cs
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Business.deps.json
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Business.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Business.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.csprojAssemblyReference.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Core.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.DataAccess.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Entities.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.DataAccess.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Entities.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\bin\Debug\netcoreapp3.1\BasicCRM.Core.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.csproj.CopyComplete
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Business\obj\Debug\netcoreapp3.1\BasicCRM.Business.csproj.CoreCompileInputs.cache

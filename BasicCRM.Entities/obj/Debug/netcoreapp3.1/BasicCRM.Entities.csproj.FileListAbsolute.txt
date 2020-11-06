@@ -1,0 +1,12 @@
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\bin\Debug\netcoreapp3.1\BasicCRM.Entities.deps.json
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\bin\Debug\netcoreapp3.1\BasicCRM.Entities.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\bin\Debug\netcoreapp3.1\BasicCRM.Entities.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.csprojAssemblyReference.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.AssemblyInfoInputs.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.AssemblyInfo.cs
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.csproj.CoreCompileInputs.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\bin\Debug\netcoreapp3.1\BasicCRM.Core.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\bin\Debug\netcoreapp3.1\BasicCRM.Core.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Entities\obj\Debug\netcoreapp3.1\BasicCRM.Entities.csproj.CopyComplete

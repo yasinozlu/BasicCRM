@@ -1,0 +1,11 @@
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\bin\Debug\netcoreapp3.1\BasicCRM.Core.deps.json
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\bin\Debug\netcoreapp3.1\BasicCRM.Core.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\bin\Debug\netcoreapp3.1\BasicCRM.Core.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.AssemblyInfoInputs.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.AssemblyInfo.cs
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.dll
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.pdb
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.csprojAssemblyReference.cache
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\bin\Debug\netcoreapp3.1\BasicCRM.Core.runtimeconfig.json
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\bin\Debug\netcoreapp3.1\BasicCRM.Core.runtimeconfig.dev.json
+C:\Users\thela\source\repos\BasicCRM\BasicCRM.Core\obj\Debug\netcoreapp3.1\BasicCRM.Core.genruntimeconfig.cache
