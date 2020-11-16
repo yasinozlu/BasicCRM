@@ -1,0 +1,47 @@
+﻿@model List<Customer>
+
+
+
+<div class="btn">
+    <button onclick="window.location.href='/Customers/Add'" type="button" class="btn btn-success btn-xl dt-edit" style="margin-right:16px;">
+        <span class="fa fa-plus-circle" aria-hidden="true"></span>Müşteri Ekle
+    </button>
+</div>
+<div class="alert alert-info" role="alert"><strong>Bilgi!</strong> Tüm müşteriler tabloda görünmektedir. Yeni müşteri eklemek için yukarıdaki "Müşteri Ekle" butonunu kullanın.</div>
+<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ad Soyad</th>
+            <th>Telefon</th>
+            <th>Adres</th>
+            <th>Kayıt Tarihi</th>
+            <th>Butonlar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CustomerId</td>
+                <td>@item.CustomerName &nbsp; @item.CustomerSurname</td>
+                <td>@item.CustomerPhone</td>
+                <td>@item.CustomerAddress</td>
+                <td>@item.RegistrationDate</td>
+                <td>
+                    <button onclick="window.location.href='/Customers/Edit/@item.CustomerId'" type="button" class="btn btn-primary btn-xs dt-edit" style="margin-right:16px;">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true">Güncelle</span>
+                    </button>
+                    <button onclick="window.location.href='/Customers/Details/@item.CustomerId'" type="button" class="btn btn-info btn-xs dt-edit" style="margin-right:16px;">
+                        <span class="glyphicon-glyphicon-zoom-in" aria-hidden="true">Detay</span>
+                    </button>
+                    <button onclick="window.location.href='/Customers/Delete/@item.CustomerId'type=" button" class="btn btn-danger btn-xs dt-delete">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true">Sil</span>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

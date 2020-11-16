@@ -1,0 +1,17 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+    <div class="wrapper">
+        <form class="form-signin" asp-action="UserLogin">
+            <h2 class="form-signin-heading">GİRİŞ YAP</h2>
+            <input type="text" class="form-control" asp-for="UserName" placeholder="Kullanıcı Adı" required="" maxlength="12" autofocus="" />
+            <input type="password" class="form-control" asp-for="UserPassword" placeholder="Şifre" maxlength="8"  required="" />
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Giriş Yap</button>
+        </form>
+    </div>
+

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\BasicCRM.Entities\BasicCRM.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Concrete\EntityFramework\Abstract\" />
+  </ItemGroup>
+
 </Project>

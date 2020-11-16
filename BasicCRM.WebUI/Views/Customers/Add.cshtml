@@ -1,0 +1,46 @@
+﻿@model Customer
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Müşteri Ekle</h1>
+
+<div class="alert alert-info" role="alert"><strong>Bilgi!</strong> Tüm müşteriler tabloda görünmektedir. Yeni müşteri eklemek için yukarıdaki "Müşteri Ekle" butonunu kullanın.</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Add">
+            <div asp-validation-summary="ModelOnly" class="text-danger text-center"></div>
+            <div class="form-group">
+                <label class="control-label">Ad</label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Soyad</label>
+                <input asp-for="CustomerSurname" class="form-control" />
+                <span asp-validation-for="CustomerSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Telefon</label>
+                <input asp-for="CustomerPhone" class="form-control" />
+                <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Adres</label>
+                <input asp-for="CustomerAddress" class="form-control" />
+                <span asp-validation-for="CustomerAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Anasayfa</a>
+</div>
+

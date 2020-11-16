@@ -14,11 +14,24 @@ namespace BasicCRM.Core.DataAccess.EntityFramework
          where TEntity : class, IEntity, new()
          where TContext : DbContext, new()
     {
+        protected readonly TContext _context;
+        //public EfEntityRepositoryBase(TContext context)
+        //{
+        //    this._context = context;
+        //}
         public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
             using (var context = new TContext())
             {
                 return context.Set<TEntity>().SingleOrDefault(filter);
+            }
+        }
+        public TEntity GetId(int id)
+        {
+            using (var context = new TContext())
+            {
+                var entity = context.Set<TEntity>().Find(id);
+                return entity;
             }
         }
 
@@ -52,6 +65,15 @@ namespace BasicCRM.Core.DataAccess.EntityFramework
 
             }
         }
+        public void Remove(int id)
+        {
+            using (var context = new TContext())
+            {
+                TEntity removedEntity = context.Set<TEntity>().Find(id);
+                context.Set<TEntity>().Remove(removedEntity);
+                context.SaveChanges();
+            }
+        }
 
 
         public void Update(TEntity entity)
@@ -62,6 +84,16 @@ namespace BasicCRM.Core.DataAccess.EntityFramework
                 updatedEntity.State = EntityState.Modified;
                 context.SaveChanges();
 
+            }
+        }
+
+        public void Edit(int id)
+        {
+            using (var context = new TContext())
+            {
+                TEntity editedEntity = context.Set<TEntity>().Find(id);
+                context.Set<TEntity>().Update(editedEntity);
+                context.SaveChanges();
             }
         }
     }

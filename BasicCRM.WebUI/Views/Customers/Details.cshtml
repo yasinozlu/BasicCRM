@@ -1,0 +1,65 @@
+﻿@model Customer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Müşteri Detayları</h1>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           <label class="control-label">Id</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerId)
+        </dd>
+
+        <dt>
+            <label class="control-label">Ad</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+
+        <dt>
+            <label class="control-label">Soyad</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerSurname)
+        </dd>
+
+        <dt>
+            <label class="control-label">Telefon</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+        <dt>
+            <label class="control-label">Adres</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerAddress)
+        </dd>
+        <dt>
+            <label class="control-label">Kayıt Tarihi</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationDate)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Güncelle", "Edit", new {  id = Model.CustomerId}) |
+    <a asp-action="Index">Anasayfa</a>
+</div>

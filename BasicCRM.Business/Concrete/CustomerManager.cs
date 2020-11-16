@@ -33,14 +33,14 @@ namespace BasicCRM.Business.Concrete
         }
         public IResult Add(Customer customer)
         {
-            //Business Codes
+            customer.RegistrationDate = DateTime.Now;
             _customerDal.Add(customer);
             return new SuccessResult(Messages.CustomerAdded);
         }
 
-        public IResult Delete(Customer customer)
+        public IResult Delete(int customerId)
         {
-            _customerDal.Delete(customer);
+            _customerDal.Remove(customerId);
             return new SuccessResult(Messages.CustomerDeleted);
         }
 
@@ -49,5 +49,19 @@ namespace BasicCRM.Business.Concrete
             _customerDal.Update(customer);
             return new SuccessResult(Messages.CustomerUpdated);
         }
+
+        public IResult Edit(int customerId)
+        {
+            _customerDal.Edit(customerId);
+            return new SuccessResult(Messages.CustomerUpdated);
+        }
+
+
+
+        //public IDataResult<Customer> GetCustomerDetailById(int customerId)
+        //{
+
+        //    return new SuccessDataResult<Customer>(_customerDal.GetCustomerDetailsById(customerId));
+        //}
     }
 }

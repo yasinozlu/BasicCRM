@@ -6,8 +6,9 @@ using System.Text;
 
 namespace BasicCRM.DataAccess.Abstract
 {
-    public interface ICustomerDal:IEntityRepository<Customer>
+    public interface ICustomerDal : IEntityRepository<Customer>
     {
-        //Özel operasyonlar..
+        //Customer GetCustomerDetailsById(int customerId);
+       
     }
 }
